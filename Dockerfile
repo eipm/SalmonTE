@@ -1,9 +1,10 @@
 FROM ubuntu:16.04
+LABEL org.opencontainers.image.source="https://github.com/eipm/SalmonTE"
 
 LABEL base.image="ubuntu:16:04"
 LABEL version="1"
 LABEL software="SalmonTE"
-LABEL software.version="0.4"
+LABEL software.version="0.4.2"
 LABEL description="An ultra-fast and scalable quantification pipeline for transposable elements from next generation sequencing data"
 LABEL website="https://github.com/hyunhwaj/SalmonTE"
 LABEL documentation="https://github.com/hyunhwaj/SalmonTE/blob/master/README.md"
